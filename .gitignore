@@ -1,0 +1,26 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Keras & Numpy
+*.keras
+*.npz
+
+# Datasets
+dataset.txt
+corpus.txt
+vocab.json
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Gemini
+GEMINI.md
