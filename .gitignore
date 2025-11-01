@@ -10,9 +10,12 @@ build/
 
 # Keras & Numpy
 *.keras
+*.h5
 *.npz
 
 # Datasets
+*.jsonl
+*.jsonl.gz
 dataset.txt
 corpus.txt
 vocab.json
@@ -24,3 +27,8 @@ yarn-error.log
 
 # Gemini
 GEMINI.md
+
+# Local directories
+backup/
+CPU_ONLY/
+github-typo-corpus/
